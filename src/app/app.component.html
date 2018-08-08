@@ -1,0 +1,24 @@
+Welcome to {{ title }}!
+
+<table>
+    <tr><td>
+           <input #ID>
+           <button (click)="ReplaceValue(ID)">Change</button>
+           
+           <br>
+           <input #VAL1>
+           <input #VAL2>
+           
+           <button (click)="AddValues(VAL1,VAL2)">Addition</button>
+           Sum:{{ sum }}
+
+           <button (click)="SubValues(VAL1,VAL2)">Substraction</button>
+           Substraction:{{ sum }}
+
+           <button (click)="MulValues(VAL1,VAL2)">Multipication</button>
+           Multipication:{{ sum }}
+
+           <button (click)="DivValues(VAL1,VAL2)">Division</button>
+           Division:{{ sum }}
+    </td></tr>
+</table>
